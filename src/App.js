@@ -1,10 +1,14 @@
 import { Container, Row, Col } from 'react-bootstrap';
 import List from './Components/List';
 import Create from './Components/Create';
+import Header from './Components/Header';
 
 function App() {
   return (
     <Container>
+      <Header
+        title={"ToDo App"}
+      />
       <Row>
         
         <Col>
